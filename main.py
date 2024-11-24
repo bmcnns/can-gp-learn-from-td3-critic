@@ -25,7 +25,6 @@ if __name__ == '__main__':
     )
 
     td3_critic = TD3CriticWrapper()
-
     population = [ (Program(), uuid4()) for _ in range(parameters.POPULATION_SIZE)]
 
     timesteps = 0
